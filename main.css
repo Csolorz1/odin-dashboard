@@ -3,6 +3,9 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+body {
+    background-color: #e2e8f0;
+}
 .container {
     display: flex;
 }
@@ -30,6 +33,7 @@
     padding: 20px;
     padding-right: 60px;
     border-bottom: 5px solid #cdd2d9;
+    background-color: white;
 }
 #searchbar {
     display: flex;
@@ -43,7 +47,7 @@ svg {
 input {
     width: 800px;
     height: 40px;
-    border-radius: 15px;
+    border-radius: 20px;
     border: none;
     background-color: #e2e8f0;
     padding-left: 15px;
@@ -199,6 +203,7 @@ h5 {
     flex-direction: column;
     padding-top: 45px;
     padding-left: 30px;
+    box-shadow: 2px 4px 4px lightgray;
 }
 #right-panel {
     width: 40%;
@@ -234,6 +239,7 @@ h5 {
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
+    box-shadow: 2px 4px 4px lightgray;
 }
 .block {
     padding-top: 20px;
@@ -253,4 +259,32 @@ h5 {
     font-size: 15px;
     color: gray;
     padding-left: 5px;
+}
+#trending {
+    background-color: white;
+    height: 420px;
+    width: 400px;
+    border-radius: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    box-shadow: 2px 4px 4px lightgray;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.trending-account {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.status {
+    color: gray;
+}
+.card-button:hover {
+    cursor: grab;
 }
